@@ -29,7 +29,7 @@ Facilitar la **auto-evaluación y el refuerzo del aprendizaje** mediante un ento
 ## 🚀 Uso en línea
 
 Visita:  
-👉 **[https://maverick1720.github.io/citen/](https://maverick1720.github.io/citen/)**  
+👉 **[https://maverick1720.github.io/citen/](https://maverick1720.github.io/citen2026/)**  
 (Actualiza esta URL con tu nombre de usuario de GitHub)
 
 ---
