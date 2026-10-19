@@ -1,0 +1,1382 @@
+[
+  {
+    "pregunta": "Un equipo debe ejecutar programas, organizar archivos y comunicarse con un dispositivo conectado. ¿Qué combinación de funciones del sistema operativo se relaciona directamente con esas tres necesidades?",
+    "opciones": [
+      "Gestión de procesos, sistema de archivos y controladores de dispositivos",
+      "Autenticación, hibernación y clasificación por usuarios",
+      "Paginación, GUI y clasificación por tareas",
+      "TCP/IP, suspensión y autorización"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué alternativa relaciona correctamente los tipos de sistemas operativos y sus ejemplos?",
+    "opciones": [
+      "Escritorio: Windows Server y Red Hat Enterprise Linux; móviles: Windows y macOS; embebidos: iOS.",
+      "Escritorio y portátiles: Windows, macOS y Linux; móviles: Android e IOS;              embebidos: chips para tareas fijas.",
+      "Móviles: Windows, macOS y Linux; red y servidores: Android e IOS;                      embebidos: aplicaciones de oficina.",
+      "Escritorio y portátiles: Android e iOS; móviles: Windows Server y Red Hat Enterprise Linux; embebidos: estaciones de diseño."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la RAM mínima de Windows Server 2022 para Server Core y para la versión con experiencia de escritorio, respectivamente?",
+    "opciones": [
+      "2 GB y 512 MB",
+      "1 GB y 4 GB",
+      "512 MB y 1 GB",
+      "512 MB y 2 GB"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué limitación tiene Windows Server Essentials?",
+    "opciones": [
+      "No admite usuarios",
+      "Máximo 25 usuarios y 50 dispositivos",
+      "No funciona en redes",
+      "Solo se instala en modo gráfico"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un administrador necesita realizar tres operaciones: comprobar la versión del TPM, consultar las características del sistema y abrir la administración de particiones. ¿Qué secuencia de comandos corresponde respectivamente?",
+    "opciones": [
+      "cleanmgr → charmap → rstrui.exe",
+      "msinfo32 → cleanmgr → charmap",
+      "tpm.msc → msinfo32 → diskmgmt.msc",
+      "diskmgmt.msc → rstrui.exe → tpm.msc"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Por qué BitLocker puede proteger la información incluso si un atacante extrae físicamente el disco duro?",
+    "opciones": [
+      "Porque oculta la información del disco",
+      "Porque cifra los datos almacenados",
+      "Porque realiza un backup de los datos",
+      "Porque elimina los datos al extraer el disco"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Una empresa desea proteger un equipo ante pérdida o robo, controlar las aplicaciones ejecutadas y detectar actividades sospechosas. ¿Qué combinación de medidas sería más adecuada?",
+    "opciones": [
+      "Habilitar firewall + desactivar cuentas compartidas + bloquear programas desconocidos",
+      "BitLocker + auditoría y registros + instalar antivirus",
+      "listas blancas + instalar antivirus + Habilitar firewall",
+      "BitLocker + listas blancas + auditoría y registros"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Se acaba de instalar el rol AD DS, pero aún no existe dominio. ¿Qué acción se ajusta al procedimiento?",
+    "opciones": [
+      "Crear directamente un usuario en ADUC y luego agregar AD DS",
+      "Quitar el rol DNS antes de abrir el asistente",
+      "Promover el servidor y elegir un bosque nuevo",
+      "Despromover el equipo y crear una cuenta local"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué comando abre «Usuarios y equipos de Active Directory» (ADUC)?",
+    "opciones": [
+      "diskmgmt.msc",
+      "dsa.msc",
+      "cleanmgr",
+      "msinfo32"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Un trabajador deja temporalmente la institución y podría regresar. Se desea impedir su acceso sin perder la cuenta y sus permisos asociados. ¿Qué acción corresponde?",
+    "opciones": [
+      "Deshabilitar la cuenta",
+      "Eliminarla y recrearla después",
+      "Cambiar el nombre del bosque",
+      "Eliminar la UO"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Se elimina una cuenta y luego se crea otra con el mismo nombre. ¿Qué ocurre con los permisos asociados al SID anterior según el material?",
+    "opciones": [
+      "Se recuperan automáticamente",
+      "El SID permanece igual",
+      "Se transfieren mediante el nombre visible",
+      "No se recuperan porque la cuenta nueva recibe otro SID"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuáles son las máscaras de subred de los siguientes tipos de clases de red:\nCLASE A   __________________\nCLASE B    ___________________\nCLASE C   ____________________",
+    "opciones": [
+      "255.255.0 / 255.0.0.0 /255.255.255.0",
+      "255.255.255.0 / 255.255.0.0 /255.0.0.0",
+      "255.0.0.0 / 255.255.0.0 /255.255.255.0",
+      "255.255.255.255/255.255.0.0 /255.0.0.0"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cúal es el Id de Red de las siguientes IP’S :\n170.100.18.4\n119.18.45.0\n209.240.80.78\n199.155.77.56",
+    "opciones": [
+      "18.4 / 119 .18 / 209.240 / 199.155",
+      "170.100 / 119 / 209.240.80 / 199.155.77",
+      "170.100.18 / 18.45.0 /240.80.78 / 56",
+      "100.18.4 / 45.0 /240.80.78/155.77.56"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué ámbito de grupo puede contener miembros de cualquier dominio del bosque?",
+    "opciones": [
+      "Grupo local",
+      "Grupo global",
+      "Grupo universal",
+      "Grupo local de dominio"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué indica un dominio \".gob\"?",
+    "opciones": [
+      "Uso gubernamental",
+      "Uso educativo",
+      "Uso comercial",
+      "Uso nacional"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué tipo de TLD es \".asia\"?",
+    "opciones": [
+      "Geográfico regional",
+      "Genérico",
+      "De tercer nivel",
+      "De segundo nivel"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El registro SOA (Start of Authority) contiene información administrativa sobre una zona DNS.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: Los registros PTR mapean nombres de dominio a direcciones IP.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: El comando ipconfig /flushdns en Windows borra la caché DNS local.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El tiempo de concesión en que la dirección IP estará reservada para una MAC en concreto es de 10 dias",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la dirección IP multicast más común?",
+    "opciones": [
+      "192.168.1.1",
+      "10.0.0.1",
+      "127.0.0.1",
+      "224.0.0.0"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál es la función de la dirección de broadcast 255.255.255.255?",
+    "opciones": [
+      "Comunicación punto a punto",
+      "Enviar información a todos los dispositivos en una red local",
+      "Configuración automática",
+      "Pruebas de conectividad"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: De la IP 192.168.100.11 /24 la última IP válida es 192.168.100.254",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: De la IP 172.16.20.192 /16 la primera IP válida es 172.16.20.1",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: De la IP 10.66.23.195 /8 la última IP válida es 10.255.255.254",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: De la IP 192.168.100.11 /24 la IP de broadcast es 192.168.100.255",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la notación CIDR para la máscara de subred de Clase A?",
+    "opciones": [
+      "/24",
+      "/16",
+      "/8",
+      "/32"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál de estos rangos corresponde a direcciones IP privadas?",
+    "opciones": [
+      "8.8.8.8 - 8.8.8.255",
+      "192.168.0.0 - 192.168.255.255",
+      "64.0.0.0 - 64.255.255.255",
+      "200.0.0.0 - 200.255.255.255"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué riesgo conlleva no auditar periódicamente los permisos del File Server?",
+    "opciones": [
+      "Disminución del rendimiento.",
+      "Pérdida de redundancia.",
+      "Exfiltración de archivos o cifrado por ransomware.",
+      "Incompatibilidad con SMB."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrecen los sistemas distribuidos frente a los centralizados?",
+    "opciones": [
+      "Menor costo de instalación",
+      "Mejor tolerancia a fallas",
+      "Mayor dependencia de un nodo",
+      "Son más lentos"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de sistema operativo es ideal para una red empresarial con varios usuarios?",
+    "opciones": [
+      "Monousuario",
+      "Centralizado",
+      "Multiusuario",
+      "GUI"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué versión de Windows Server 2022 permite máquinas virtuales ilimitadas?",
+    "opciones": [
+      "Essentials",
+      "Standard",
+      "Datacenter",
+      "Azure Fundamentals"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es el mínimo de espacio en disco requerido para Windows Server 2022 GUI?",
+    "opciones": [
+      "64 GB",
+      "16 GB",
+      "128 GB",
+      "32 GB"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué función cumple una lista blanca en el control de aplicaciones?",
+    "opciones": [
+      "Bloquear todas las aplicaciones",
+      "Permitir solo aplicaciones autorizadas y bloquear las demás",
+      "Eliminar automáticamente el software instalado",
+      "Proteger los activos informáticos"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué edición de Windows Server 2019 NO requiere CAL (Client Access License)?",
+    "opciones": [
+      "Datacenter",
+      "Standard",
+      "Essentials",
+      "Datacenter y Standard"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué herramienta en Windows Server 2019 centraliza la gestión de roles y características?",
+    "opciones": [
+      "Administrador de dispositivos",
+      "Administrador del servidor",
+      "PowerShell",
+      "Plataforma de aplicaciones"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Hemos creado un usuario dentro de la unidad organizativa OUASI en nuestro dominio cierva.net. El usuario se llama Isidro López. ¿Cuál sería su Distinguish Name?",
+    "opciones": [
+      "cn=Isidro López, ou=OUASI ,dn=cierva.net",
+      "cn=Isidro López, ou=OUASI, dc=cierva",
+      "cn=Isidro López, ou=Users, ou=OUASI, dc=cierva,dc=net",
+      "cn=Isidro López, ou=OUASI, dc=cierva,dc=net"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuántas direcciones IP puede manejar aproximadamente una red Clase A?",
+    "opciones": [
+      "256 direcciones",
+      "65,536 direcciones",
+      "16 millones de direcciones",
+      "1,024 direcciones"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Verdadero o Falso: Al editar una política de grupo, la configuración se puede aplicar a la configuración del usuario y a la configuración del equipo.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: Las políticas de grupo (GPO)se vinculan a las unidades organizativas (UO)",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: Los roles del servidor son los componentes independientes de las funciones del servidor",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: Las características del servidor se utilizan para organizar la funcionalidad del sistema, designan las funciones principales del servidor",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es la representación binaria de la máscara de subred 255.255.0.0?",
+    "opciones": [
+      "1111111.11111111.11111111.00000000",
+      "11111111.11111111.00000000.00000000",
+      "11111111.00000000.00000000.00000000",
+      "11111111.11111111.11111111.11111111"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Qué comando permite forzar la actualización de la directiva de grupo?",
+    "opciones": [
+      "ping /update",
+      "gpupdate /force",
+      "nslookup /refresh",
+      "ipconfig /flushdns"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué dominio se usa en zonas de búsqueda inversa para IPv4?",
+    "opciones": [
+      "in-addr.arpa",
+      "ip6.arpa",
+      "reverse-dns.org",
+      "ip4.arpa"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué parte de \"www.sitioweb.org.es\" es el SLD?",
+    "opciones": [
+      "\"sitioweb\"",
+      "\".org\"",
+      "\".es\"",
+      "\"www \""
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La zona de búsqueda directa se utiliza para resolver direcciones IP a nombres de dominio.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: ",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: Los registros AAAA en DNS se utilizan para mapear nombres de dominio a direcciones IPv6.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La zona de búsqueda inversa utiliza registros MX.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: Los registros CNAME se utilizan para crear alias de nombres de dominio.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es el propósito específico de la Clase E de direcciones IP?",
+    "opciones": [
+      "Redes comerciales grandes",
+      "Redes domésticas",
+      "No se utiliza en equipos de uso normal (experimental)",
+      "Multicast exclusivamente"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuáles son los componentes del DNS?\nI.- Cliente Fase 1\nII.- Servidores DNS\nIII.- Zonas de autoridad\nIV.- Zona directa e inversa",
+    "opciones": [
+      "I,II",
+      "I, II, III",
+      "IV",
+      "I"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Por qué la Clase D no es de utilización común para usuarios normales?",
+    "opciones": [
+      "Es muy lenta",
+      "Es muy cara",
+      "Está destinada a uso experimental y grupos de máquinas específicos",
+      "Solo funciona en redes privadas"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un sistema de archivos distribuido?",
+    "opciones": [
+      "Un sistema que elimina archivos antiguos.",
+      "Un sistema que copia los datos en varios servidores para redundancia.",
+      "Un sistema exclusivo para Linux.",
+      "Un programa de respaldo automático."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es una buena práctica para proteger un servidor de archivos?",
+    "opciones": [
+      "Conectarlo directamente a internet.",
+      "Mantener copias de seguridad fuera de línea.",
+      "Eliminar las copias de seguridad cada semana.",
+      "Permitir permisos globales a todos los usuarios."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué diferencia principal existe entre una cuenta local y una de dominio?",
+    "opciones": [
+      "La local se administra en la nube y la de dominio en el equipo.",
+      "La local se gestiona en un solo equipo y la de dominio centralmente.",
+      "Ambas se gestionan igual.",
+      "Ninguna diferencia."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué sucede si un usuario intenta iniciar sesión en el dominio con una cuenta local?",
+    "opciones": [
+      "Obtiene acceso completo.",
+      "No puede autenticarse.",
+      "Accede con permisos limitados.",
+      "Inicia sesión automáticamente."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de cuenta crea Windows automáticamente durante la instalación?",
+    "opciones": [
+      "Local.",
+      "Intrínseca.",
+      "Temporal.",
+      "Remota."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una cuenta intrínseca común?",
+    "opciones": [
+      "Administrador e Invitado.",
+      "Usuario estándar y root.",
+      "Operador y Supervisor.",
+      "Dominio y Local."
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El protocolo de red más común en servidores es SMB",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El FTP sirve para transferir archivos por internet",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: Edu.esp sería el dominio de una universidad de España",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: .EU, sería el dominio de Estados Unidos",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: 8.8.8.8 es un dominio de Google",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: DHCP es un protocolo de configuración de host privado",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: Uno de los problemas comunes de red, puede ser el conflicto de direcciones IP",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección es la primera dirección válida para la red 172.16.20.192/16?",
+    "opciones": [
+      "172.16.0.1",
+      "172.16.255.254",
+      "172.16.255.255",
+      "172.15.255.255"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué dirección es la última dirección válida para la red 10.66.23.195/8?",
+    "opciones": [
+      "10.0.0.254",
+      "10.255.255.255",
+      "10.255.255.254",
+      "10.66.255.254"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué pareja representa, en ese orden, una interfaz de línea de comandos y una interfaz gráfica?",
+    "opciones": [
+      "GUI y CLI",
+      "CLI y GUI",
+      "TCP/IP y GUI",
+      "Kernel y CLI"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué comando abre Administración de discos desde Ejecutar?",
+    "opciones": [
+      "cleanmgr",
+      "diskmgmt.msc",
+      "charmap",
+      "rstrui.exe"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Identifica la Clase de Red\n10.25.1.1\n150.10.15.0\n192.14.2.0\n148.17.9.1",
+    "opciones": [
+      "B,C,A, C",
+      "A,B,C,B",
+      "B,A,B,C",
+      "A,B,C,A"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cómo contribuyó Windows 98 a la evolución de la conectividad?",
+    "opciones": [
+      "Mejoró la integración con Internet, USB y dispositivos",
+      "Eliminó el soporte de redes",
+      "Eliminó Plug and Play",
+      "Sustituyó los dispositivos USB por dispositivos propietarios"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de estas relaciones entre versión y objetivo tecnológico es incorrecta?",
+    "opciones": [
+      "Windows 8 - adaptación a dispositivos táctiles",
+      "Windows 10 - integración de elementos   clásicos y modernos",
+      "Windows 11 - modernización de diseño y multitarea",
+      "Windows 3.1 - adaptación principal a pantallas táctiles"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Cuál fue el principal objetivo de diseño de Windows 8?",
+    "opciones": [
+      "Mejoras en fuentes, multimedia, impresión y estabilidad",
+      "Volver a una interfaz exclusivamente basada en comandos",
+      "Adaptar Windows a una nueva generación de dispositivos, especialmente táctiles",
+      "Permitir recuperar una configuración anterior cuando aparecían problemas"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué componente del sistema operativo interactúa directamente con el hardware?",
+    "opciones": [
+      "GUI",
+      "Kernel",
+      "Aplicación",
+      "BIOS"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es una característica visual de Windows 11?",
+    "opciones": [
+      "Escritorio en 3D",
+      "Menú de inicio centrado",
+      "Menú clásico",
+      "Barra lateral flotante"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de sistema operativo permite usar los recursos de una sola computadora?",
+    "opciones": [
+      "Distribuido",
+      "Centralizado",
+      "Multiusuario",
+      "Virtualizado"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué versión de Windows Server no incluye interfaz gráfica?",
+    "opciones": [
+      "Server Core",
+      "Server GUI",
+      "Server Pro",
+      "Server Classic"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando se usa para abrir la herramienta \"Información del Sistema\"?",
+    "opciones": [
+      "devmgmt.msc",
+      "dxdiag",
+      "msinfo32",
+      "taskmgr"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué función de Windows 95 facilitó la instalación de dispositivos?",
+    "opciones": [
+      "Plug and Play",
+      "Windows Search",
+      "Windows Hello",
+      "Snap Layouts"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué mejoró Windows 98 respecto al soporte de hardware?",
+    "opciones": [
+      "La administración de mosaicos dinámicos",
+      "El soporte para USB",
+      "La autenticación biométrica",
+      "La organización de escritorios virtuales"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál fue una característica útil de Windows Me para solucionar problemas del sistema?",
+    "opciones": [
+      "Windows Defender",
+      "Windows Hello",
+      "Restaurar sistema",
+      "Snap Layouts"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué aportó el menú Inicio de Windows 95?",
+    "opciones": [
+      "Una forma centralizada de acceder a programas y funciones del sistema",
+      "Una herramienta exclusiva para administrar redes",
+      "Un sistema de recuperación del sistema",
+      "Un mecanismo de protección contra malware"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué característica gráfica introdujo Windows Vista?",
+    "opciones": [
+      "Mosaicos dinámicos",
+      "Interfaz Aero",
+      "Snap Layouts",
+      "Escritorios virtuales"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué característica fue fundamental en Windows 8 para adaptarse a dispositivos táctiles?",
+    "opciones": [
+      "Menú Inicio clásico",
+      "Interfaz Aero",
+      "Pantalla Inicio con mosaicos dinámicos",
+      "Program Manager"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál fue una característica destacada de Windows 11?",
+    "opciones": [
+      "Interfaz basada exclusivamente en comandos",
+      "Interfaz renovada con menú Inicio y barra de tareas centrados",
+      "Program Manager",
+      "TrueType"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué característica de Windows 11 Pro permite cifrar unidades?",
+    "opciones": [
+      "Hyper-V",
+      "BitLocker",
+      "Remote Desktop",
+      "Layouts"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué componente permite administrar usuarios y dominios en Windows Server?",
+    "opciones": [
+      "BitLocker",
+      "Windows Hello",
+      "Active Directory",
+      "Layouts"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué ventaja ofrece Windows 11 Layouts?",
+    "opciones": [
+      "Permite organizar varias ventanas para trabajar con diferentes programas simultáneamente",
+      "Permite cifrar discos",
+      "Permite administrar dominios",
+      "Permite instalar controladores automáticamente"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué requisito mínimo de memoria RAM se indica para Server Core de Windows Server 2022?",
+    "opciones": [
+      "256 MB",
+      "512 MB",
+      "2 GB",
+      "8 GB"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué requisito mínimo de memoria RAM se indica para la versión con experiencia de escritorio?",
+    "opciones": [
+      "512 MB",
+      "1 GB",
+      "2 GB",
+      "16 GB"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál fue el principal aporte de Windows 1.0 frente al uso exclusivo de MS-DOS?",
+    "opciones": [
+      "Introducir una interfaz gráfica para interactuar con aplicaciones",
+      "Incorporar soporte para dispositivos táctiles",
+      "Implementar actualizaciones continuas",
+      "Introducir controles avanzados de seguridad"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Las Funciones del Sistema Operativo son:",
+    "opciones": [
+      "Gestión de Kernel, Gestión de Recursos, Gestión de Periféricos",
+      "Gestión de Dispositivos, Gestión de Ciberseguridad, Gestión de Errores",
+      "Gestión de Red, Gestión de Recursos, Gestión de Memoria",
+      "Gestión de tareas, Gestión de datos, Gestión de Almacenamiento"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué función tiene la herramienta \"Liberador de Disco\"?",
+    "opciones": [
+      "Desfragmentar el disco",
+      "Analizar virus",
+      "Eliminar archivos innecesarios",
+      "Optimizar la memoria RAM"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué comando abre la restauración del sistema?",
+    "opciones": [
+      "sfc /scannow",
+      "msconfig",
+      "rstrui.exe",
+      "diskpart"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué herramienta permite regresar el sistema a un estado anterior?",
+    "opciones": [
+      "Disk Cleanup",
+      "Task Manager",
+      "System Restore",
+      "BleachBit"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un grupo de trabajo en Windows Server?",
+    "opciones": [
+      "Un servidor central que gestiona todos los equipos",
+      "Un conjunto de computadoras que comparten recursos sin servidor central",
+      "Un tipo de virus informático",
+      "Un conjunto de personas"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál es el límite recomendado de equipos en un grupo de trabajo?",
+    "opciones": [
+      "5",
+      "100",
+      "25",
+      "20"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué ventaja tiene un dominio sobre un grupo de trabajo?",
+    "opciones": [
+      "Gestión centralizada de usuarios y recursos",
+      "Menor costo de licencias",
+      "No requiere configuración de red",
+      "No Permite compartir archivos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué se necesita para unir un equipo a un dominio?",
+    "opciones": [
+      "Una licencia especial y un servidor DNS",
+      "Solo una conexión a Internet",
+      "Un controlador de dominio y credenciales de administrador",
+      "Un servidor DHCP"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es Active Directory (AD)?",
+    "opciones": [
+      "Un antivirus de Microsoft",
+      "Un programa de edición de imágenes",
+      "Un programa para editar imágenes",
+      "Un servicio de directorio para gestionar usuarios y recursos en una red"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "¿Qué función principal tiene un controlador de dominio?",
+    "opciones": [
+      "Almacenar archivos compartidos",
+      "Ejecutar aplicaciones web",
+      "Gestionar autenticación y autorización de usuarios",
+      "Requiere gestión manual en cada equipo"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es una Unidad Organizativa (UO) en AD?",
+    "opciones": [
+      "Un tipo de licencia",
+      "Una agrupación lógica para aplicar políticas de grupo",
+      "Un tipo de servidor",
+      "Un protocolo de red"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué herramienta se usa para crear usuarios en AD?",
+    "opciones": [
+      "Usuarios y Equipos de Active Directory",
+      "Administrador de dispositivos",
+      "PowerShell sin módulos",
+      "Kerberos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Administra la asignación de direcciones IP de América Latina y algunas islas del Caribe?",
+    "opciones": [
+      "AfriNIC",
+      "APNIC",
+      "LACNIC",
+      "RIPE NCC"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué significa DNS?",
+    "opciones": [
+      "Dynamic Network Service",
+      "Data Naming Service",
+      "Domain Name System",
+      "Distributed Name Server"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Cuál es la función principal del DNS?",
+    "opciones": [
+      "Convertir nombres de dominio en direcciones IP",
+      "Encriptar datos en la red",
+      "Gestionar contraseñas de usuarios",
+      "Gestionar base de datos"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué comando se usa para verificar la resolución DNS en Windows?",
+    "opciones": [
+      "ping",
+      "nslookup",
+      "ipconfig",
+      "ipconfig /release"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué tipo de registro DNS asocia un nombre de dominio a una dirección IPv6?",
+    "opciones": [
+      "Registro AAAA",
+      "Registro NS",
+      "Registro TXT",
+      "Registro MX"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organización regula los nombres de dominio a nivel mundial?",
+    "opciones": [
+      "IEEE",
+      "ICANN",
+      "ISO",
+      "IANA"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué significa DHCP?",
+    "opciones": [
+      "Dynamic Host Configuration Protocol",
+      "Direct Host Communication Protocol",
+      "Distributed Hardware Control Protocol",
+      "Digital Host Connection Protocol"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la función principal de DHCP?",
+    "opciones": [
+      "Autenticar usuarios",
+      "Crear dominios",
+      "Permitir a los clientes obtener parámetros de configuración automáticamente",
+      "Gestionar archivos"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué significa IP en direccionamiento de redes?",
+    "opciones": [
+      "Internet Protocol",
+      "Internal Process",
+      "Information Protocol",
+      "Integrated Platform"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál es la dirección IP de loopback más común?",
+    "opciones": [
+      "192.168.1.1",
+      "10.0.0.1",
+      "127.0.0.1",
+      "172.16.0.1"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué es un File Server?",
+    "opciones": [
+      "Un servidor que ejecuta videojuegos.",
+      "Un servidor central que gestiona archivos en red.",
+      "Un programa antivirus.",
+      "Un sistema operativo de red."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué función principal cumple un File Server?",
+    "opciones": [
+      "Ejecutar programas de ofimática.",
+      "Servir como almacenamiento centralizado de archivos.",
+      "Controlar dispositivos de red.",
+      "Gestionar impresoras compartidas."
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué protocolo de red es más común en los servidores de archivos LAN?",
+    "opciones": [
+      "HTTP",
+      "SMB",
+      "DHCP",
+      "ICMP"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes protocolos sirve para transferir archivos por internet?",
+    "opciones": [
+      "FTP",
+      "SMTP",
+      "SNMP",
+      "DHCP"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Cuál de las siguientes es una razón para crear un respaldo del servidor?",
+    "opciones": [
+      "Para aumentar el espacio de almacenamiento del disco duro.",
+      "Mejorar la velocidad de la red.",
+      "Cortes abruptos de luz que afectan el servidor.",
+      "Reducir la necesidad de mantenimiento de hardware."
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "La unidad principal de la estructura lógica del Directorio Activo es el _________",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "Es una agrupación u organización jerárquica de uno o más dominios",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Cuáles son los nombres de las siguientes siglas: GPO , DC, OU",
+    "opciones": [
+      "Política Global, Controlador de Discos, Unidad de dominio",
+      "Política Universal, Controlador de universal, Unidad Organizativa",
+      "Dominio global, local, universal",
+      "Política de Grupo, Controlador de Dominio, Unidad Organizativa"
+    ],
+    "correcta": 3
+  },
+  {
+    "pregunta": "Es una agrupación de uno o más árboles independientes y están conectados por una relación de confianza bidireccional implícita",
+    "opciones": [
+      "bosque",
+      "sitio",
+      "dominio",
+      "árbol"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué organización internacional asigna las direcciones IP?",
+    "opciones": [
+      "Microsoft",
+      "Google",
+      "IANA (Internet Assigned Numbers Authority)",
+      "IBM"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué significa APIPA y cuál es su rango?",
+    "opciones": [
+      "Automatic Private IP Addressing, 169.254.0.0/16",
+      "Advanced Private IP Assignment, 192.168.0.0/16",
+      "Automatic Public IP Addressing, 10.0.0.0/8",
+      "Advanced Public IP Assignment, 172.16.0.0/12"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué rango de direcciones pertenece a la Clase A?",
+    "opciones": [
+      "128.0.0.0 a 191.255.255.255",
+      "192.0.0.0 a 223.255.255.255",
+      "0.0.0.0 a 127.255.255.255",
+      "224.0.0.0 a 239.255.255.255"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿En qué clase de red se utilizan los dos primeros bytes para la red y los dos últimos para el host?",
+    "opciones": [
+      "Clase A",
+      "Clase B",
+      "Clase C",
+      "Clase D"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Cuál de los siguientes atajos de teclado permite abrir el Explorador de Windows en Windows 10?",
+    "opciones": [
+      "Win + R",
+      "Win + E",
+      "Ctrl + E",
+      "Alt + Tab"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 126.8.156.0 pertenece a la Clase A",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 220.200.23.1. pertenece a la Clase B",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 119.18.45.0 pertenece a la Clase A",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 158.98.80.0 pertenece a la Clase B",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 177.100.18.4 su máscara de Subred es 255.255.0.0",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 119.18.45.0. su máscara de Subred es 255.0.0.0",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 192.12.35.105 su máscara de Subred es 255.0.0.0",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 189.210.50.1 su máscara de Subred es 255.255.255.0",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 177.100.18.4 tiene 3 ID de red",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 119.18.45.0 tiene 1 ID de red",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 209.240.80.78 tiene 3 ID de red",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: La IP 33.0.0.0 tiene 2 ID de red",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+  {
+    "pregunta": "A que Clase de Red pertenece la siguiente IP:\nI.- 150.10.15.0\nII.- 192.14.2.0.\nIII.- 148.17.9.1\nIV.- 193.42.1.1",
+    "opciones": [
+      "B,C,B,C",
+      "A,B,C,A",
+      "B,C,B,B",
+      "C,B,C,B"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El registro que se usa en la zona de busca directa es A",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: En registro que se una en la zona de busca inversa es PTR",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: Uno de los protocolos básicos de Active Directory es LDAP",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+  {
+    "pregunta": "Verdadero o Falso: El Bitlocker funciona de manera optima con equipos con chip TPM 1.2.",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  }
+]
