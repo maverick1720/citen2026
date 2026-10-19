@@ -112,6 +112,10 @@
   {
     "pregunta": "¿Cuáles son las máscaras de subred de los siguientes tipos de clases de red:\nCLASE A   __________________\nCLASE B    ___________________\nCLASE C   ____________________",
     "opciones": [
+      "clase A _____________",
+      "clase B _____________",
+      "clase C _____________",
+
       "255.255.0 / 255.0.0.0 /255.255.255.0",
       "255.255.255.0 / 255.255.0.0 /255.0.0.0",
       "255.0.0.0 / 255.255.0.0 /255.255.255.0",
@@ -122,6 +126,11 @@
   {
     "pregunta": "¿Cúal es el Id de Red de las siguientes IP’S :\n170.100.18.4\n119.18.45.0\n209.240.80.78\n199.155.77.56",
     "opciones": [
+      "I.  170.100.18.4",
+      "II.  119.18.45.0",
+      "III.  209.240.80.78",
+      "IV.  199.155.77.56",
+
       "18.4 / 119 .18 / 209.240 / 199.155",
       "170.100 / 119 / 209.240.80 / 199.155.77",
       "170.100.18 / 18.45.0 /240.80.78 / 56",
@@ -444,14 +453,6 @@
     "correcta": 1
   },
   {
-    "pregunta": "Verdadero o Falso: ",
-    "opciones": [
-      "Verdadero",
-      "Falso"
-    ],
-    "correcta": 1
-  },
-  {
     "pregunta": "Verdadero o Falso: Los registros AAAA en DNS se utilizan para mapear nombres de dominio a direcciones IPv6.",
     "opciones": [
       "Verdadero",
@@ -488,6 +489,12 @@
   {
     "pregunta": "¿Cuáles son los componentes del DNS?\nI.- Cliente Fase 1\nII.- Servidores DNS\nIII.- Zonas de autoridad\nIV.- Zona directa e inversa",
     "opciones": [
+      "I.- Cliente Fase 1 ",
+      "II.- Servidores DNS   ",
+      "III.- Zonas de autoridad  ",
+      "IV.- Zona directa e inversa ",
+
+
       "I,II",
       "I, II, III",
       "IV",
@@ -664,6 +671,11 @@
   {
     "pregunta": "Identifica la Clase de Red\n10.25.1.1\n150.10.15.0\n192.14.2.0\n148.17.9.1",
     "opciones": [
+      "I.  10.25.1.1",
+      "II.  150.10.15.0",
+      "III.  192.14.2.0",
+      "IV.  148.17.9.1",
+
       "B,C,A, C",
       "A,B,C,B",
       "B,A,B,C",
@@ -888,6 +900,16 @@
       "Gestión de Dispositivos, Gestión de Ciberseguridad, Gestión de Errores",
       "Gestión de Red, Gestión de Recursos, Gestión de Memoria",
       "Gestión de tareas, Gestión de datos, Gestión de Almacenamiento"
+    ],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué comando se usa para abrir la herramienta Información del Sistema?",
+    "opciones": [
+      "devmgmt.msc",
+      "dxdiag",
+      "msinfo32 ",
+      "taskmgr"
     ],
     "correcta": 2
   },
@@ -1340,6 +1362,11 @@
   {
     "pregunta": "A que Clase de Red pertenece la siguiente IP:\nI.- 150.10.15.0\nII.- 192.14.2.0.\nIII.- 148.17.9.1\nIV.- 193.42.1.1",
     "opciones": [
+      "I.- 150.10.15.0",
+      "II.- 192.14.2.0. ",
+      "III.- 148.17.9.1 ",
+      "IV.- 193.42.1.1",
+
       "B,C,B,C",
       "A,B,C,A",
       "B,C,B,B",
@@ -1378,5 +1405,29 @@
       "Falso"
     ],
     "correcta": 1
+  },
+    {
+    "pregunta": "Verdadero o Falso:De la IP 192.168.100.11 /24 la última IP válida es 192.168.100.254 ",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
+  },
+      {
+    "pregunta": "Verdadero o Falso:De la IP 172.16.20.192 /16 la primera IP válida es 172.16.20.1",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 1
+  },
+        {
+    "pregunta": "Verdadero o Falso:150. De la IP 10.66.23.195 /8 la última IP válida es 10.255.255.254 ",
+    "opciones": [
+      "Verdadero",
+      "Falso"
+    ],
+    "correcta": 0
   }
 ]
